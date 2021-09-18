@@ -1,5 +1,6 @@
+## About
 
-> Open this page at [https://downloadgreensoftware.github.io/micropet/](https://downloadgreensoftware.github.io/micropet/)
+The micropet is a simulation of a pet and does this by animating the LED's on the microbit and making sounds come out of the speaker. Just note that you require the V2 for this program to work.
 
 ## Use as Extension
 
@@ -9,6 +10,8 @@ This repository can be added as an **extension** in MakeCode.
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/downloadgreensoftware/micropet** and import
+* save your project at whatever name you want and drag the **.hex** file into the **MICROBIT** drive
+Alternatevety, you can use the micro:bit simulator to use your program without a microbit or transferring the **.hex** file needed.
 
 ## Edit this project ![Build status badge](https://github.com/downloadgreensoftware/micropet/workflows/MakeCode/badge.svg)
 
