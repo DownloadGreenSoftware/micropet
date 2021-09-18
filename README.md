@@ -11,7 +11,8 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/downloadgreensoftware/micropet** and import
 * save your project at whatever name you want and drag the **.hex** file into the **MICROBIT** drive
-Alternatevety, you can use the micro:bit simulator to use your program without a microbit or transferring the **.hex** file needed.
+
+PROTIP: Alternatevety, you can use the micro:bit simulator to use your program without a microbit or transferring the **.hex** file needed.
 
 ## Edit this project ![Build status badge](https://github.com/downloadgreensoftware/micropet/workflows/MakeCode/badge.svg)
 
