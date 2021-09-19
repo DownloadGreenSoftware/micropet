@@ -28,6 +28,23 @@ input.onGesture(Gesture.EightG, function () {
         . . . . .
         . # # # .
         `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     soundExpression.giggle.play()
@@ -47,13 +64,23 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
             . # # # .
             `)
     }
-    basic.showLeds(`
-        # # . # #
-        # . . . #
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
@@ -95,13 +122,23 @@ input.onButtonPressed(Button.A, function () {
         . # # # .
         `)
     basic.pause(1000)
-    basic.showLeds(`
-        # # . # #
-        # . . . #
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 input.onGesture(Gesture.FreeFall, function () {
     basic.showLeds(`
@@ -149,6 +186,23 @@ input.onGesture(Gesture.SixG, function () {
         . . . . .
         . # # # .
         `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 input.onButtonPressed(Button.B, function () {
     if (Sleepy == false) {
@@ -182,13 +236,23 @@ input.onGesture(Gesture.Shake, function () {
             . # . # .
             `)
     }
-    basic.showLeds(`
-        # # . # #
-        # . . . #
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     soundExpression.slide.play()
@@ -214,13 +278,23 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         . . . . .
         . # # # .
         `)
-    basic.showLeds(`
-        # # . # #
-        # . . . #
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 input.onGesture(Gesture.ThreeG, function () {
     basic.showLeds(`
@@ -230,6 +304,23 @@ input.onGesture(Gesture.ThreeG, function () {
         . . . . .
         . # # # .
         `)
+    if (Sleepy == false) {
+        basic.showLeds(`
+            # # . # #
+            # . . . #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    }
 })
 let Sleepy = false
 Sleepy = false
