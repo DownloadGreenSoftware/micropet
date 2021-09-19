@@ -63,7 +63,7 @@ input.onButtonPressed(Button.A, function () {
         . # # # .
         # . . . #
         `)
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < randint(0, 10); index++) {
         basic.showLeds(`
             # . . . #
             . . . . .
@@ -150,23 +150,19 @@ input.onGesture(Gesture.SixG, function () {
         . # # # .
         `)
 })
-input.onButtonPressed(Button.AB, function () {
-    basic.showLeds(`
-        # # . # #
-        # . . . #
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
-})
 input.onButtonPressed(Button.B, function () {
-    basic.showLeds(`
-        . . . . .
-        # # . # #
-        . . . . .
-        . . . . .
-        . # # # .
-        `)
+    if (Sleepy == false) {
+        Sleepy = true
+        basic.showLeds(`
+            . . . . .
+            # # . # #
+            . . . . .
+            . . . . .
+            . # # # .
+            `)
+    } else {
+        control.reset()
+    }
 })
 input.onGesture(Gesture.Shake, function () {
     soundExpression.mysterious.play()
@@ -235,6 +231,8 @@ input.onGesture(Gesture.ThreeG, function () {
         . # # # .
         `)
 })
+let Sleepy = false
+Sleepy = false
 soundExpression.yawn.play()
 basic.showLeds(`
     . . . . .
